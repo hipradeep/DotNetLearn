@@ -42,10 +42,6 @@ namespace Lab_1
 
             }
 
-
-
-
-
         }
 
         static void sum(int a, int b)
