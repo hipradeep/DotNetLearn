@@ -46,27 +46,28 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Q22Digit.cs" />
-    <Compile Include="Q2223Employee.cs" />
-    <Compile Include="Q1920Swap.cs" />
-    <Compile Include="Q17SquareCube.cs" />
-    <Compile Include="Q16SimpleInterest.cs" />
-    <Compile Include="Q1415CelsiusFahrenheit.cs" />
-    <Compile Include="Q1213Circle.cs" />
-    <Compile Include="Q1011Rectangle.cs" />
-    <Compile Include="Q9Average.cs" />
-    <Compile Include="Q8SumOfThree.cs" />
-    <Compile Include="Q7AllAirthInOne.cs" />
-    <Compile Include="Q6DivisionInt.cs" />
-    <Compile Include="Q5MultiplicationInt.cs" />
-    <Compile Include="Q4Substractionint.cs" />
-    <Compile Include="Q3SumInt.cs" />
-    <Compile Include="Q2displayint.cs" />
-    <Compile Include="Q1displaymesage.cs" />
+    <Compile Include="assignments\lab-1\Q22Digit.cs" />
+    <Compile Include="assignments\lab-1\Q2223Employee.cs" />
+    <Compile Include="assignments\lab-1\Q1920Swap.cs" />
+    <Compile Include="assignments\lab-1\Q17SquareCube.cs" />
+    <Compile Include="assignments\lab-1\Q16SimpleInterest.cs" />
+    <Compile Include="assignments\lab-1\Q1415CelsiusFahrenheit.cs" />
+    <Compile Include="assignments\lab-1\Q1213Circle.cs" />
+    <Compile Include="assignments\lab-1\Q1011Rectangle.cs" />
+    <Compile Include="assignments\lab-1\Q9Average.cs" />
+    <Compile Include="assignments\lab-1\Q8SumOfThree.cs" />
+    <Compile Include="assignments\lab-1\Q7AllAirthInOne.cs" />
+    <Compile Include="assignments\lab-1\Q6DivisionInt.cs" />
+    <Compile Include="assignments\lab-1\Q5MultiplicationInt.cs" />
+    <Compile Include="assignments\lab-1\Q4Substractionint.cs" />
+    <Compile Include="assignments\lab-1\Q3SumInt.cs" />
+    <Compile Include="assignments\lab-1\Q2displayint.cs" />
+    <Compile Include="assignments\lab-1\Q1displaymesage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
