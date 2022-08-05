@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Lab_1
+namespace DotNetLearn.assignments.lab_1
 {
     class Q17SquareCube
     {

@@ -1,11 +1,10 @@
 ﻿using System;
 
-namespace Lab_1
+namespace DotNetLearn.assignments.lab_1
 {
     class Q22Digit
     {
-
-        static void Main(string[] args)
+         static void Main(string[] args)
 
         {
             Console.WriteLine("Enter a  number!");
