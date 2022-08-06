@@ -48,7 +48,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>DotNetLearn.prectice.NumSum</StartupObject>
+    <StartupObject>DotNetLearn.basic.Functions</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -93,7 +93,16 @@
     <Compile Include="assignments\lab-2\Q7SquareSum.cs" />
     <Compile Include="assignments\lab-2\Q8Sum.cs" />
     <Compile Include="assignments\lab-2\Q9Ascii.cs" />
-    <Compile Include="basic\Class1.cs" />
+    <Compile Include="assignments\lab-3\Q1Array.cs" />
+    <Compile Include="assignments\lab-3\Q2ArrayRev.cs" />
+    <Compile Include="assignments\lab-3\Q3SumOfArray.cs" />
+    <Compile Include="assignments\lab-3\Q4CopyArray.cs" />
+    <Compile Include="assignments\lab-3\Q5_2DArray.cs" />
+    <Compile Include="assignments\lab-3\Q6_3DArray.cs" />
+    <Compile Include="assignments\lab-3\Q7JaggedArray.cs" />
+    <Compile Include="basic\Functions.cs" />
+    <Compile Include="basic\Program1.cs" />
+    <Compile Include="basic\Program.cs" />
     <Compile Include="prectice\NumSum.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

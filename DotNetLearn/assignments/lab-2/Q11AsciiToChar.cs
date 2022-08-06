@@ -11,7 +11,7 @@ namespace DotNetLearn.assignments.lab_2
         static void Main(string[] args)
         {
             int count = 97;
-            float sum = 0;
+            
             do
             {
                 Console.WriteLine("ASCII character  of " + count + " - " + (char)count);
