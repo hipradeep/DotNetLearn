@@ -48,7 +48,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>DotNetLearn.basic.Functions</StartupObject>
+    <StartupObject>DotNetLearn.basic.StructExample</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -100,9 +100,11 @@
     <Compile Include="assignments\lab-3\Q5_2DArray.cs" />
     <Compile Include="assignments\lab-3\Q6_3DArray.cs" />
     <Compile Include="assignments\lab-3\Q7JaggedArray.cs" />
+    <Compile Include="basic\Enum.cs" />
     <Compile Include="basic\Functions.cs" />
     <Compile Include="basic\Program1.cs" />
     <Compile Include="basic\Program.cs" />
+    <Compile Include="basic\StructExample.cs" />
     <Compile Include="prectice\NumSum.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
