@@ -35,12 +35,7 @@ namespace DotNetLearn.basic
             DateTime dt = new DateTime(2015, 12, 31);
             Console.WriteLine("Date- " + dt.Date);
 
-
-
-
-
             Console.ReadLine();
-
 
         }
     }

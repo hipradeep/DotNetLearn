@@ -48,7 +48,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>DotNetLearn.basic.StructExample</StartupObject>
+    <StartupObject>DotNetLearn.basic.OperatorOverloading</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -102,6 +102,8 @@
     <Compile Include="assignments\lab-3\Q7JaggedArray.cs" />
     <Compile Include="basic\Enum.cs" />
     <Compile Include="basic\Functions.cs" />
+    <Compile Include="basic\InharitanceExample.cs" />
+    <Compile Include="basic\OperatorOverloading.cs" />
     <Compile Include="basic\Program1.cs" />
     <Compile Include="basic\Program.cs" />
     <Compile Include="basic\StructExample.cs" />
