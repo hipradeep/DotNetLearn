@@ -35,5 +35,15 @@ namespace DotNetLearn.windosform
         {
             (new NextForm()).Show();
         }
+
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
+
+        private void closeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

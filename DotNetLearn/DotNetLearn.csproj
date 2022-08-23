@@ -166,5 +166,8 @@
   <ItemGroup>
     <None Include="Resources\tomato_vegetables_vegetable_food_agriculture_fruit_icon_220780.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Close.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
