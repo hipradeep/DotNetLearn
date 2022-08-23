@@ -11,15 +11,22 @@ namespace DotNetLearn.basic
         static void Main(string[] args)
         {
 
+            try
+            {
+                Student s = new Student();
+                s.ID = 101;
+                s.Name = "Mahesh";
+                Console.WriteLine("Student ID = {0}", s.ID);
+                Console.WriteLine("Student Name = {0}", s.Name);
+                Console.WriteLine("Student Pass Marks = {0}", s.PassMark);
+            }
+            catch(Exception e)
+            {
 
-            Student s = new Student();
-            s.ID = 101;
-            s.Name = "Mahesh";
-            Console.WriteLine("Student ID = {0}", s.ID);
-            Console.WriteLine("Student Name = {0}", s.Name);
-            Console.WriteLine("Student Pass Marks = {0}", s.PassMark);
+            }
+            
 
-            Console.ReadKey();
+            Console.ReadLine();
         }
     }
     class demo
