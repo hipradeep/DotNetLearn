@@ -47,5 +47,26 @@ namespace DotNetLearn.windosform
             }
             MessageBox.Show(sb.ToString());
         }
+
+        private void clear_selection_Click(object sender, EventArgs e)
+        {
+            listBox2.Items.Clear();
+        }
+
+        private void btn_select_img_Click(object sender, EventArgs e)
+        {
+            // open file dialog   
+            OpenFileDialog open = new OpenFileDialog();
+            // image filters  
+            open.Filter = "Image Files(*.jpg; *.jpeg; *.gif; *.bmp)|*.jpg; *.jpeg; *.gif; *.bmp";
+            if (open.ShowDialog() == DialogResult.OK)
+            {
+                // display image in picture box  
+                pictureBox1.Image = new Bitmap(open.FileName);
+                pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+                // image file path  
+                pic_label.Text = open.FileName;
+            }
+        }
     }
 }
