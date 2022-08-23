@@ -120,16 +120,34 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="windosform\NextForm.cs">
+    <Compile Include="windosform-sdi\mdi\Index.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="windosform\NextForm.Designer.cs">
+    <Compile Include="windosform-sdi\mdi\Index.Designer.cs">
+      <DependentUpon>Index.cs</DependentUpon>
+    </Compile>
+    <Compile Include="windosform-sdi\mdi\Setting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="windosform-sdi\mdi\Setting.Designer.cs">
+      <DependentUpon>Setting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="windosform-sdi\mdi\Tools.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="windosform-sdi\mdi\Tools.Designer.cs">
+      <DependentUpon>Tools.cs</DependentUpon>
+    </Compile>
+    <Compile Include="windosform-sdi\NextForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="windosform-sdi\NextForm.Designer.cs">
       <DependentUpon>NextForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="windosform\welcome.cs">
+    <Compile Include="windosform-sdi\welcome.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="windosform\welcome.Designer.cs">
+    <Compile Include="windosform-sdi\welcome.Designer.cs">
       <DependentUpon>welcome.cs</DependentUpon>
     </Compile>
   </ItemGroup>
@@ -153,10 +171,19 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="windosform\NextForm.resx">
+    <EmbeddedResource Include="windosform-sdi\mdi\Index.resx">
+      <DependentUpon>Index.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="windosform-sdi\mdi\Setting.resx">
+      <DependentUpon>Setting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="windosform-sdi\mdi\Tools.resx">
+      <DependentUpon>Tools.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="windosform-sdi\NextForm.resx">
       <DependentUpon>NextForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="windosform\welcome.resx">
+    <EmbeddedResource Include="windosform-sdi\welcome.resx">
       <DependentUpon>welcome.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>

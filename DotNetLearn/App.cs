@@ -15,7 +15,8 @@ namespace DotNetLearn
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new welcome());
+            //Application.Run(new welcome()); // for sdi
+            Application.Run(new windosform.mdi.Index()); // for mdi
 
         }
     }
