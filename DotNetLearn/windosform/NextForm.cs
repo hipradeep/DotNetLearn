@@ -39,7 +39,13 @@ namespace DotNetLearn.windosform
 
         private void listBox2_SelectedIndexChanged(object sender, EventArgs e)
         {
-            MessageBox.Show(listBox2.SelectedItem.ToString() + " Selected");
+            // MessageBox.Show(listBox2.SelectedItem.ToString() + " Selected");
+            StringBuilder sb = new StringBuilder();
+           foreach(object item in listBox2.SelectedItems)
+            {
+                sb.Append(item.ToString() + " ");
+            }
+            MessageBox.Show(sb.ToString());
         }
     }
 }
