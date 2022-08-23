@@ -110,6 +110,7 @@
     <Compile Include="basic\OperatorOverloading.cs" />
     <Compile Include="basic\Program1.cs" />
     <Compile Include="basic\Program.cs" />
+    <Compile Include="basic\Properties.cs" />
     <Compile Include="basic\StructExample.cs" />
     <Compile Include="prectice\NumSum.cs" />
     <Compile Include="App.cs" />
