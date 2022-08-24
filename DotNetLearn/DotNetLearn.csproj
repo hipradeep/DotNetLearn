@@ -5,7 +5,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{C4EE97CA-1E2F-4299-8C67-896E9F9020BC}</ProjectGuid>
-    <OutputType>WinExe</OutputType>
+    <OutputType>Exe</OutputType>
     <RootNamespace>DotNetLearn</RootNamespace>
     <AssemblyName>DotNetLearn</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
@@ -48,7 +48,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>DotNetLearn.App</StartupObject>
+    <StartupObject>DotNetLearn.basic.GenericType</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -105,6 +105,7 @@
     <Compile Include="basic\ExceptionHandlingExample.cs" />
     <Compile Include="basic\Enum.cs" />
     <Compile Include="basic\Functions.cs" />
+    <Compile Include="basic\GenericType.cs" />
     <Compile Include="basic\InharitanceExample.cs" />
     <Compile Include="basic\InterfaceExample.cs" />
     <Compile Include="basic\InterfaceExample2.cs" />
@@ -157,6 +158,12 @@
     <Compile Include="windosform-sql\Student.Designer.cs">
       <DependentUpon>Student.cs</DependentUpon>
     </Compile>
+    <Compile Include="windowsform-mysql\StudentNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="windowsform-mysql\StudentNew.Designer.cs">
+      <DependentUpon>StudentNew.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -195,6 +202,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="windosform-sql\Student.resx">
       <DependentUpon>Student.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="windowsform-mysql\StudentNew.resx">
+      <DependentUpon>StudentNew.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
