@@ -1,4 +1,5 @@
 ﻿using DotNetLearn.windosform;
+using DotNetLearn.windosform_sql;
 using System;
 using System.Windows.Forms;
 
@@ -16,7 +17,8 @@ namespace DotNetLearn
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             //Application.Run(new welcome()); // for sdi
-            Application.Run(new windosform.mdi.Index()); // for mdi
+           // Application.Run(new windosform.mdi.Index()); // for mdi
+            Application.Run(new Student()); // for mdi
 
         }
     }
