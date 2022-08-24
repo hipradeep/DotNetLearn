@@ -259,3 +259,7 @@ paket-files/
 # Python Tools for Visual Studio (PTVS)
 __pycache__/
 *.pyc
+/DotNetLearn/collections/Dictionary.cs
+/DotNetLearn/collections/HashSet.cs
+/DotNetLearn/collections/HashTable.cs
+/DotNetLearn/collections/LinkedList.cs

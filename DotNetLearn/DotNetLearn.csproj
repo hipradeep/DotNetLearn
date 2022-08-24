@@ -48,7 +48,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>DotNetLearn.basic.GenericType</StartupObject>
+    <StartupObject>DotNetLearn.collections.SortedDictionary</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -114,6 +114,15 @@
     <Compile Include="basic\Program.cs" />
     <Compile Include="basic\Properties.cs" />
     <Compile Include="basic\StructExample.cs" />
+    <Compile Include="collections\Dictionary.cs" />
+    <Compile Include="collections\HashSet.cs" />
+    <Compile Include="collections\HashTable.cs" />
+    <Compile Include="collections\LinkedList.cs" />
+    <Compile Include="collections\ListExample.cs" />
+    <Compile Include="collections\Queue.cs" />
+    <Compile Include="collections\SortedDictionary.cs" />
+    <Compile Include="collections\SortedSet.cs" />
+    <Compile Include="collections\Stack.cs" />
     <Compile Include="prectice\NumSum.cs" />
     <Compile Include="App.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
