@@ -34,5 +34,10 @@ namespace DotNetLearn.windowsform_mysql
             //// dataGridView1.DataBind();
             //cn.Close();
         }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

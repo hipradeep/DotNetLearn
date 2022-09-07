@@ -48,7 +48,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>DotNetLearn.collections.SortedDictionary</StartupObject>
+    <StartupObject>DotNetLearn.assignments.lab_4.MainClass</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -102,6 +102,7 @@
     <Compile Include="assignments\lab-3\Q5_2DArray.cs" />
     <Compile Include="assignments\lab-3\Q6_3DArray.cs" />
     <Compile Include="assignments\lab-3\Q7JaggedArray.cs" />
+    <Compile Include="assignments\lab-4\MainClass.cs" />
     <Compile Include="basic\ExceptionHandlingExample.cs" />
     <Compile Include="basic\Enum.cs" />
     <Compile Include="basic\Functions.cs" />
@@ -123,6 +124,9 @@
     <Compile Include="collections\SortedDictionary.cs" />
     <Compile Include="collections\SortedSet.cs" />
     <Compile Include="collections\Stack.cs" />
+    <Compile Include="inharitance\InheritanceExample.cs" />
+    <Compile Include="prectice\Arrays.cs" />
+    <Compile Include="prectice\Language.cs" />
     <Compile Include="prectice\NumSum.cs" />
     <Compile Include="App.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
